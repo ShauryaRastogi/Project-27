@@ -58,13 +58,13 @@ function draw() {
   bob4.display();
   bob5.display();
   
-  
+} 
 function keyPressed() { 
 	if (keyCode === UP_ARROW) 
 	{ Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:-100,y:-100}); } 
 }
  
-}
+
 
 
 
